@@ -1,0 +1,51 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://gjhltn.github.io/HostIIIF-demo/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Rogier van der Weyden, Portrait of a Woman with a Winged Bonnet, c. 1440. Gemäldegalerie, Berlin."
+    ]
+  },
+  "items": [
+    {
+      "id": "https://gjhltn.github.io/HostIIIF-demo/canvas",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Canvas with a single IIIF image"
+        ]
+      },
+	  "width": 4464,
+	  "height": 6645,
+      "items": [
+        {
+          "id": "https://gjhltn.github.io/HostIIIF-demo/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://gjhltn.github.io/HostIIIF-demo/data",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://gjhltn.github.io/HostIIIF-demo/inpit.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                 "width": 4464,
+				 "height": 6645,
+                "service": [
+                  {
+                    "id": "https://gjhltn.github.io/HostIIIF-demo/data",
+                    "profile": "level0",
+                    "type": "ImageService3"
+                  }
+                ]
+              },
+              "target": "https://gjhltn.github.io/HostIIIF-demo/page"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
