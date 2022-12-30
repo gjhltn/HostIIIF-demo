@@ -26,7 +26,7 @@
             {
               "id": "https://gjhltn.github.io/HostIIIF-demo/data",
               "type": "Annotation",
-              "motivation": "painting",
+              "motivation": "painting ",
               "body": {
                 "id": "https://gjhltn.github.io/HostIIIF-demo/inpit.jpg",
                 "type": "Image",
