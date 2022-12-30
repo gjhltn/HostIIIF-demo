@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/2/context.json",
-  "@id": "data",
+  "@id": "https://gjhltn.github.io/HostIIIF-demo/data/info.json",
   "profile": [
     "http://iiif.io/api/image/2/level0.json",
     {
